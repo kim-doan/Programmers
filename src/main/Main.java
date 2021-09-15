@@ -10,7 +10,7 @@ import hash.Hash3;
 public class Main {
 	
 	/**
-	 * ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	 */
 	private static void hash1Start() {
 		String[] participant = { "leo", "kiki", "eden" };
@@ -24,7 +24,7 @@ public class Main {
 	}
 	
 	/**
-	 * ÀüÈ­¹øÈ£ºÎ ¸ñ·Ï
+	 * ï¿½ï¿½È­ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½
 	 */
 	private static void hash2Start() {
 		String[] phone_book = { "12","123","1235","567","88" };
@@ -37,7 +37,7 @@ public class Main {
 	}
 	
 	/**
-	 * À§Àå
+	 * ï¿½ï¿½ï¿½ï¿½
 	 */
 	private static void hash3Start() {
 		String[][] clothes = {{"yellowhat", "headgear"}, {"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
@@ -50,7 +50,7 @@ public class Main {
 	}
 	
 	/**
-	 * ÃÖ¼Ò °Å½º¸§µ·
+	 * ï¿½Ö¼ï¿½ ï¿½Å½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private static void greedy1Start() {
 		int pay = 1260;
@@ -63,7 +63,7 @@ public class Main {
 	}
 	
 	/**
-	 * Å« ¼öÀÇ ¹ýÄ¢
+	 * Å« ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¢
 	 */
 	private static void greedy2Start() {
 		int[] array = {3, 4, 3, 4, 3};
@@ -78,7 +78,7 @@ public class Main {
 	}
 	
 	/**
-	 * 1ÀÌ µÉ ¶§±îÁö
+	 * 1ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private static void greedy3Start() {
 		int n = 25;
