@@ -3,9 +3,13 @@ package main;
 import greedy.Greedy1;
 import greedy.Greedy2;
 import greedy.Greedy3;
+import greedy.Greedy4;
 import hash.Hash1;
 import hash.Hash2;
 import hash.Hash3;
+import impl.Impl1;
+import impl.Impl2;
+import impl.Impl3;
 
 public class Main {
 	
@@ -91,12 +95,71 @@ public class Main {
 		System.out.println(result);
 	}
 	
+	/**
+	 * Ã¼À°º¹
+	 */
+	private static void greedy4Start() {
+		int n = 5;
+		int[] lost = {5, 4, 2};
+		int[] reserve = {2, 4};
+		
+		Greedy4 greedy4 = new Greedy4();
+		
+		int result = greedy4.solution(n, lost, reserve);
+		
+		System.out.println(result);
+	}
+	
+	/**
+	 * »óÇÏÁÂ¿ì
+	 */
+	private static void impl1Start() {
+		int n = 5;
+		String[] plan = {"R", "R", "R", "U", "D", "D"};
+		
+		Impl1 impl1 = new Impl1();
+		
+		String result = impl1.solution(n, plan);
+		
+		System.out.println(result);
+	}
+	
+	/**
+	 * ½Ã°£
+	 */
+	private static void impl2Start() {
+		int n = 5;
+		
+		Impl2 impl2 = new Impl2();
+		
+		int result = impl2.solution(n);
+		
+		System.out.println(result);
+	}
+	
+	/**
+	 * ¿Õ½ÇÀÇ ³ªÀÌÆ®
+	 */
+	private static void impl3Start() {
+		String n = "c1";
+		
+		Impl3 impl3 = new Impl3();
+		
+		int result = impl3.solution(n);
+		
+		System.out.println(result);
+	}
+	
 	public static void main(String[] args) {
 //		hash1Start();
 //		hash2Start();
 //		hash3Start();
 //		greedy1Start();
 //		greedy2Start();
-		greedy3Start();
+//		greedy3Start();
+//		greedy4Start();
+//		impl1Start();
+//		impl2Start();
+		impl3Start();
 	}
 }
